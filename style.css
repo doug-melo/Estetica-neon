@@ -47,6 +47,8 @@ img{
 /*Menu*/
 nav{
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 nav a img{ 
@@ -60,10 +62,11 @@ nav a img:hover{
 
    
 /*Conteúdo*/
-main{
-    display:flex;
-
+main div{
+    display:inline-block;
+    margin-left: 180px;
 }
+
 main p{
     width: 500px;
     margin: 20px;
@@ -73,7 +76,7 @@ main p{
     border: 2px solid white;
     border-radius: 20px;
     font-size: 2em;
-    padding: 10px;
+    padding: 10px 70px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.808);
 }
 
@@ -84,6 +87,19 @@ main p:hover{
     transform: translate(-3px, -3px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.801);
     transition: transform .3s, color 1s ;
+}
+
+footer{
+    text-align: center;
+    margin-top: 10vw;
+    color: white;
+    font-family: var(--fonte3);
+    font-size: 1rem;
+}
+
+footer a{
+    color: white;
+
 }
 
 
