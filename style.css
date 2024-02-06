@@ -89,6 +89,11 @@ main p:hover{
     transition: transform .3s, color 1s ;
 }
 
+a{
+    color: white;
+    text-decoration: none;
+}
+
 footer{
     text-align: center;
     margin-top: 10vw;
@@ -97,9 +102,13 @@ footer{
     font-size: 1rem;
 }
 
-footer a{
+footer a:hover{
     color: white;
-
+    text-decoration: none;
+    color: blue;
+    text-shadow: 1px 1px 3px white;
+    transform: translate(-3px, -3px);
+    transition: transform .3s, color 1s ;
 }
 
 
